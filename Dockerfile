@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV GO_IPFS_VERSION v0.4.18
+ENV GO_IPFS_VERSION v0.4.19-rc1
 ENV IPFS_PATH /srv/ipfs
 
 # Update & install packages for go-callisto dep
