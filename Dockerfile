@@ -9,8 +9,8 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV GO_IPFS_VERSION v0.13.1
-ENV IPFS_PATH /srv/ipfs
+ENV GO_IPFS_VERSION=v0.13.1
+ENV IPFS_PATH=/srv/ipfs
 
 # Update & install packages for go-callisto dep
 RUN apt-get update && \
